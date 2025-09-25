@@ -22,7 +22,7 @@ async function getWeather(location) {
     const conditions = data.currentConditions.conditions;
     const iconName = data.currentConditions.icon;
 
-    const iconUrl = `imagenes/${iconName}.png`;
+    const iconUrl = `images/${iconName}.png`;
 
     weatherData.innerHTML = `
             <h2>${data.resolvedAddress}</h2>

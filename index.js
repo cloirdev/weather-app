@@ -26,7 +26,7 @@ async function getWeather(location) {
 
     weatherData.innerHTML = `
             <h2>${data.resolvedAddress}</h2>
-            <img src="${iconUrl}" alt="${conditions}">
+            <img src="${iconUrl}" class="weather-icon" alt="${conditions}">
             <p>Temperatura: ${temp}°C</p>
             <p>Condiciones: ${conditions}</p>
         `;
